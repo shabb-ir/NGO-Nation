@@ -1,0 +1,405 @@
+.main-footer {
+  position: relative;
+  left: 0;
+  width: 100%;
+  overflow: visible;
+  clear: both;
+}
+
+.page-footer {
+  background-color: rgb(66, 65, 65);
+  padding: 30px 80px;
+  color: #fff;
+  margin-bottom: 0px;
+  position: relative;
+  width: 100%;
+  top: 45px;
+}
+
+.ml-1 {
+  margin-left: 15px;
+}
+
+.reportModalHeader > h1 {
+  color: #4e4e4e;
+  font-size: 1.5rem;
+}
+
+.reportModalContent > h2 {
+  color: #4e4e4e;
+  font-size: 0.9rem;
+}
+
+.crossButton {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: 12px;
+  top: 7px;
+  font-size: 14px;
+  border: 0;
+  box-shadow: none;
+}
+
+.btn-close:focus {
+  outline: 0;
+  box-shadow: none;
+  opacity: 1;
+}
+
+.btn-hover {
+  font-size: 16px;
+  padding: 5px 5px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 5px;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  background-image: linear-gradient(
+    to right,
+    #ea1111,
+    #e40303,
+    #fa7199,
+    #e85a19
+  );
+  box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+
+.links {
+  color: rgb(177, 177, 177);
+  text-decoration: none;
+}
+.links:hover {
+  color: rgb(231, 231, 231);
+}
+
+.footer-text {
+  color: rgb(177, 177, 177);
+}
+
+.footer-links {
+  line-height: 25px;
+}
+
+.col2 {
+  position: relative;
+}
+
+.button {
+  background-color: rgb(15, 127, 233);
+  color: #fff;
+}
+
+.footer-copyright,
+.copyright {
+  color: rgb(156, 156, 156);
+  text-decoration: none;
+}
+
+.socials {
+  display: flex;
+}
+
+.social-btn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  width: 25px;
+  height: 25px;
+  margin: 5px 5px;
+  padding: 15px;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+
+.twitter:hover {
+  background-color: #00acee;
+}
+.github:hover {
+  background-color: black;
+}
+
+.fa-brands {
+  font-size: 20px;
+  border-radius: 100%;
+}
+
+.cont-icon {
+  color: #ff725e;
+  transition: all 0.3s ease-in;
+}
+
+.cont:hover {
+  background-color: #ff725e;
+}
+
+.cont i {
+  transition: all 0.3s ease-in;
+}
+
+.cont:hover i {
+  color: white;
+}
+
+.fa-twitter {
+  color: #00acee;
+  transition: all 0.3s ease-in;
+}
+
+.fa-github {
+  color: black;
+  transition: all 0.3s ease-in;
+}
+
+.social-btn:hover i {
+  color: white;
+}
+
+.join {
+  margin-top: 27px;
+}
+
+.join-us ul li a {
+  transition: all 0.3s ease-in;
+}
+
+.report {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 15px;
+  position: absolute;
+  bottom: 49px;
+  background-color: #27414d;
+  color: #fff;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.report:hover {
+  box-shadow: 0 2px 8px rgb(122, 122, 122);
+}
+
+.rep {
+  margin-top: 23px;
+}
+
+.btn-report {
+  border-radius: 8px;
+  border: none;
+  background-color: #9ac2fe;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in;
+}
+
+.btn-report:hover {
+  background-color: #3663a6;
+  transform: scale(1.1);
+}
+
+.btn-report span {
+  color: black;
+}
+
+.btn-report:hover span {
+  color: #fff;
+}
+
+.btn-report i {
+  transition: all 0.3s ease-in;
+  color: black;
+}
+
+.btn-report:hover i {
+  transform: rotate(90deg);
+  color: #fff;
+}
+
+.report img {
+  width: 20px;
+}
+
+.top-img {
+  height: 25px;
+  position: relative;
+  left: 4%;
+}
+
+.bottom-img {
+  position: relative;
+  right: 5%;
+}
+.col-md-3 {
+  width: 150px;
+}
+.ls {
+  margin-left: 200px;
+}
+
+.btn-contact {
+  border-radius: 5px;
+  background-color: #9ac2fe;
+  border: none;
+  color: #424141;
+}
+
+.btn-contact:hover {
+  transition-duration: 0.5s;
+  color: #000000;
+}
+
+@media screen and (max-width: 1276px) {
+  .footer-links {
+    line-height: 40px !important;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .footer-content {
+    flex-direction: column !important;
+  }
+
+  .col1,
+  .col2 {
+    width: 100% !important;
+  }
+
+  .footer-links {
+    display: none;
+  }
+
+  .row2 {
+    margin: 0 !important;
+  }
+
+  .report {
+    position: relative;
+    bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .page-footer {
+    padding: 30px 28px !important;
+  }
+}
+
+.reportModal {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reportModalContent {
+  position: relative;
+  background-color: white;
+  border-radius: 3%;
+  height: fit-content;
+  width: 30vw;
+  min-width: 500px;
+  padding: 1rem;
+  color: black;
+}
+
+.reportModalHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.footer_auth_text {
+  color: #9ac2fe;
+}
+
+@media screen and (min-width: 526px) {
+  body {
+    overflow: unset;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .reportModalHeader {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .reportModalHeader > h1 {
+    font-size: 1.2rem;
+    margin-left: 1.4rem;
+    margin-bottom: 0px;
+    flex: auto;
+  }
+
+  .reportModalContent {
+    width: 89vw;
+    min-width: 220px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+  .social-icons-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .footer-text {
+    text-align: justify;
+    font-size: 14px;
+    margin: 10px -20px;
+  }
+
+  .social-icons {
+    text-align: center;
+  }
+
+  .join-us {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+  }
+
+  .join-us-list {
+    position: relative;
+    top: -10px;
+  }
+}
